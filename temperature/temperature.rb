@@ -9,33 +9,33 @@ class Temperature
 
   def to_fahrenheit
     case @unit
-    when 'f'
+    when 'fahrenheit'
       @value
-    when 'c'
+    when 'celsius'
       @value * 9/5 + 32
-    when 'k'
+    when 'kelvin'
       (@value - 273.15) * 9/5 + 32
     end
   end
 
   def to_celsius
     case @unit
-    when 'f'
+    when 'fahrenheit'
       (@value - 32) * 5/9
-    when 'c'
+    when 'celsius'
       @value
-    when 'k'
+    when 'kelvin'
       @value - 273.15
     end
   end
 
   def to_kelvin
     case @unit
-    when 'f'
+    when 'fahrenheit'
       (@value - 32) * 5/9 + 273.15
-    when 'c'
+    when 'celsius'
       @value + 273.15
-    when 'k'
+    when 'kelvin'
       @value
     end
   end
