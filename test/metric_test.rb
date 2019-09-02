@@ -15,17 +15,29 @@ class MetricTest < Minitest::Test
     assert_equal  79.52468007312613, Metric.new(87, 'yard').to_meter
   end
 
+  def test_yards_to_meters_2
+    assert_equal  82.26691042047531, Metric.new(90, 'yard').to_meter
+  end
+
   def test_km_to_meters
     assert_equal  1000000, Metric.new(1000, 'km').to_meter
-    end
+  end
+
+  def test_km_to_meters_2
+    assert_equal  2000000, Metric.new(2000, 'km').to_meter
+  end
 
   def test_miles_to_meters
     assert_equal  2574950.4, Metric.new(1600, 'miles').to_meter
   end
 
+  def test_miles_to_meters_2
+    assert_equal  5164384.896, Metric.new(3209, 'miles').to_meter
+  end
+
   def test_inches_to_meters
     assert_equal  100, Metric.new(3937, 'inch').to_meter
-    end
+  end
 
   def test_centimeters_to_meters
     assert_equal  10, Metric.new(1000, 'centimeter').to_meter

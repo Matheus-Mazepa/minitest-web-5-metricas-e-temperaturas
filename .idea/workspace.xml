@@ -4,7 +4,6 @@
     <list default="true" id="235bcf53-9590-4880-ab2d-dde77f2baa9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/metric_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/metric_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/temperature_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/temperature_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <workItem from="1566859981525" duration="1264000" />
       <workItem from="1566942708158" duration="4446000" />
       <workItem from="1567368494955" duration="1289000" />
-      <workItem from="1567456132615" duration="1224000" />
+      <workItem from="1567456132615" duration="1416000" />
     </task>
     <servers />
   </component>
