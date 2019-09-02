@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="235bcf53-9590-4880-ab2d-dde77f2baa9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temperature/temperature.rb" beforeDir="false" afterPath="$PROJECT_DIR$/temperature/temperature.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/metric_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/metric_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/temperature_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/temperature_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +59,9 @@
       <workItem from="1566857746120" duration="14000" />
       <workItem from="1566857796779" duration="1808000" />
       <workItem from="1566859981525" duration="1264000" />
-      <workItem from="1566942708158" duration="4125000" />
+      <workItem from="1566942708158" duration="4446000" />
+      <workItem from="1567368494955" duration="1289000" />
+      <workItem from="1567456132615" duration="1224000" />
     </task>
     <servers />
   </component>
@@ -72,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
