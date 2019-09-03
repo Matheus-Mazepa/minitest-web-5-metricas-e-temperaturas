@@ -1,5 +1,6 @@
-class Metric
+# frozen_string_literal: true
 
+class Metric
   attr_accessor :value, :unit
 
   def initialize(value, unit)
@@ -18,11 +19,11 @@ class Metric
     when 'meter'
       @value *  39.37
     when 'miles'
-      @value * 63360.0
+      @value * 63_360.0
     when 'yard'
       @value * 36.0
     when 'km'
-      @value * 39370.1
+      @value * 39_370.1
     end
   end
 
@@ -33,15 +34,15 @@ class Metric
     when 'centimeter'
       @value
     when 'foot'
-      @value *  30.48
+      @value * 30.48
     when 'meter'
       @value * 100.0
     when 'miles'
-      @value *  160934.4
+      @value *  160_934.4
     when 'yard'
       @value * 91.44
     when 'km'
-      @value * 100000.0
+      @value * 100_000.0
     end
   end
 
@@ -56,7 +57,7 @@ class Metric
     when 'meter'
       @value * 3.281
     when 'miles'
-      @value *  5280
+      @value * 5280
     when 'yard'
       @value * 3.0
     when 'km'
@@ -75,7 +76,7 @@ class Metric
     when 'meter'
       @value
     when 'miles'
-      @value *  1609.344
+      @value * 1609.344
     when 'yard'
       @value / 1.094
     when 'km'
@@ -86,9 +87,9 @@ class Metric
   def to_miles
     case @unit
     when 'inch'
-      @value / 63360.0
+      @value / 63_360.0
     when 'centimeter'
-      @value / 160934.4
+      @value / 160_934.4
     when 'foot'
       @value / 5280.0
     when 'meter'
@@ -124,9 +125,9 @@ class Metric
   def to_km
     case @unit
     when 'inch'
-      @value / 39370.079
+      @value / 39_370.079
     when 'centimeter'
-      @value / 100000.0
+      @value / 100_000.0
     when 'foot'
       @value / 3280.84
     when 'meter'

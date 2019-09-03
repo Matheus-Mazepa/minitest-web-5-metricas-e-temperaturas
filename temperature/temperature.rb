@@ -1,5 +1,6 @@
-class Temperature
+# frozen_string_literal: true
 
+class Temperature
   attr_accessor :value, :unit
 
   def initialize(value, unit)
@@ -12,16 +13,16 @@ class Temperature
     when 'fahrenheit'
       @value
     when 'celsius'
-      @value * 9/5 + 32
+      @value * 9 / 5 + 32
     when 'kelvin'
-      (@value - 273.15) * 9/5 + 32
+      (@value - 273.15) * 9 / 5 + 32
     end
   end
 
   def to_celsius
     case @unit
     when 'fahrenheit'
-      (@value - 32) * 5/9
+      (@value - 32) * 5 / 9
     when 'celsius'
       @value
     when 'kelvin'
@@ -32,7 +33,7 @@ class Temperature
   def to_kelvin
     case @unit
     when 'fahrenheit'
-      (@value - 32) * 5/9 + 273.15
+      (@value - 32) * 5 / 9 + 273.15
     when 'celsius'
       @value + 273.15
     when 'kelvin'

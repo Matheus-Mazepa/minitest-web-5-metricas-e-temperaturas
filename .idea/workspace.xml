@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="235bcf53-9590-4880-ab2d-dde77f2baa9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/roby-compose.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/roby-compose.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metric/metric.rb" beforeDir="false" afterPath="$PROJECT_DIR$/metric/metric.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temperature/temperature.rb" beforeDir="false" afterPath="$PROJECT_DIR$/temperature/temperature.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/metric_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/metric_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/temperature_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/temperature_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -29,6 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
@@ -61,7 +67,8 @@
       <workItem from="1566942708158" duration="4446000" />
       <workItem from="1567368494955" duration="1289000" />
       <workItem from="1567456132615" duration="1416000" />
-      <workItem from="1567530892033" duration="647000" />
+      <workItem from="1567530892033" duration="2284000" />
+      <workItem from="1567547599413" duration="2263000" />
     </task>
     <servers />
   </component>
