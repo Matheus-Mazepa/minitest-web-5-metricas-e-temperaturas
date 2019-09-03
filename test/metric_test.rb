@@ -39,12 +39,24 @@ class MetricTest < Minitest::Test
     assert_equal  100, Metric.new(3937, 'inch').to_meter
   end
 
+  def test_inches_to_meters_2
+    assert_equal  200, Metric.new(7874, 'inch').to_meter
+  end
+
   def test_centimeters_to_meters
     assert_equal  10, Metric.new(1000, 'centimeter').to_meter
   end
 
+  def test_centimeters_to_meters_2
+    assert_equal  35, Metric.new(3500, 'centimeter').to_meter
+  end
+
   def test_yards_to_km
     assert_equal 457.200124724194, Metric.new(500000, 'yard').to_km
+  end
+
+  def test_yards_to_km_2
+    assert_equal 228.600062362097, Metric.new(250000, 'yard').to_km
   end
 
   def test_foot_to_km
@@ -163,24 +175,36 @@ class MetricTest < Minitest::Test
     assert_equal 20000, Metric.new(200, 'meter').to_centimeter
   end
 
-
   def test_km_to_centimeters
     assert_equal 100000, Metric.new(1, 'km').to_centimeter
   end
 
+  def test_km_to_centimeters_2
+    assert_equal 200000, Metric.new(2, 'km').to_centimeter
+  end
 
   def test_foot_to_centimeters
     assert_equal 3048, Metric.new(100, 'foot').to_centimeter
   end
 
+  def test_foot_to_centimeters_2
+    assert_equal 9144, Metric.new(300, 'foot').to_centimeter
+  end
 
   def test_yard_to_centimeters
     assert_equal 9144, Metric.new(100, 'yard').to_centimeter
   end
 
+  def test_yard_to_centimeters_2
+    assert_equal 18288, Metric.new(200, 'yard').to_centimeter
+  end
 
   def test_inches_to_centimeters
     assert_equal 254, Metric.new(100, 'inch').to_centimeter
+  end
+
+  def test_inches_to_centimeters_2
+    assert_equal 508, Metric.new(200, 'inch').to_centimeter
   end
 end
 
